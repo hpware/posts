@@ -11,7 +11,24 @@ date: 2024-12-27
 
 第2台機器，是比較強大的機器(I5-6代 + 16G)，那台機器現在是我家的網路中心，包含Nginx Reverse Proxy、Pi-Hole、Home Assistant．．．
 # 2025 目標
-
-
+最主要的就是**不要依賴ChatBots 與 Code Autocomplete (aka Ai)** 
+## 網頁
+- 我最近在學後端，在2025年底要全熟
+- 完成這個網站 
+	- 相簿
+	- 專案
+	- 目標追蹤
+	- 管理系統
+	- 登入系統
+- 要學會React或NextJS並完成一個完全的一個網站。
+- 調查並寫一個在網頁，讓我困擾並解決的解答
+- 英文版個人網站 (hwtw.cc)
+- 設立完(或嘗試自己寫)寫完部落格並自動傳到Bluesky Threads 與 Twitter(X) 上
+## 手機程式
+- 學會NativeScript並會做一個完成的公車追蹤程式
+## 伺服器
+- Fedora 到現在 Debian 的現狀
+- 嘗試在Debian上用PPPoE，並分享到這裡和Threads上，並把Yunohost的主機轉到PPPoE。
+# . 
 ### Self advertise
 有一些更新會在我的Threads帳號上，考慮追蹤一下： https://threads.net/@yh_.5_26
