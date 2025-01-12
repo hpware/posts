@@ -2,6 +2,7 @@
 title: 2024的回顧 與 2025的期望
 description: 在網頁開發有突飛猛勁的成長，我在會考前寫了一個爛爛的程式，當時我用我完全不熟悉的React來寫，我當時對Reac...
 date: 2024-12-27
+ldate: 2025-01-12
 ---
 ## 2024年的回顧
 ### 網頁
@@ -31,4 +32,4 @@ date: 2024-12-27
 - Fedora 到現在 Debian 的現狀
 - 嘗試在Debian上用PPPoE，並分享到這裡和Threads上，並把Yunohost的主機轉到PPPoE。
 
-有一些更新會在我的Threads帳號上，考慮追蹤一下： https://threads.net/@yh_.5_26
+有一些更新會在我的Threads帳號上，考慮追蹤一下： https://yhw.tw/threads
