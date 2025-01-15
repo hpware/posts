@@ -16,9 +16,11 @@ ldate: 2025-01-14
 大多數的圖片與assets都用 polynethub . netlify . app 來傳到裝置，並用 Cloudflare R2 來運作。
 
 在 index.html裡，Attacker用jquery來傳送被害人到blob: 的網頁上。
+
 code: 
 ```
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js">
+</script>
 <script>
 $(document).ready(function() {
 saveFile();});
@@ -27,7 +29,7 @@ function saveFile(name, type, data) {
 if (data != null && navigator.msSaveBlob)
 return navigator.msSaveBlob(new Blob([data], { type: type }), name);
 var a = $("<a style='display: none;'/>");
-var encodedStringAtoB = "PCFET0NUWVBFIGh0bWw+CjxodG1sIGxhbmc9ImVuIj4KPGhlYWQ+CiAgICA8bWV0YSBjaGFyc2V0PSJVVEYtO...3NjcmlwdD4KCgo8L2JvZHk+CjwvaHRtbD4=";
+var encodedStringAtoB = "PCFET0NUWVBF...CjwvaHRtbD4=";
 var decodedStringAtoB = atob(encodedStringAtoB);
 const myBlob = new Blob([decodedStringAtoB], { type: 'text/html' });
 const url = window.URL.createObjectURL(myBlob);|
@@ -39,10 +41,7 @@ a.remove();
 }
 </script>
 ```
-
-
-
- ## 網頁
+## 網頁
  ![](https://1qz92oj9ol.ufs.sh/f/CCLPSN5W2HD5GPtP9TiCp1MaquLXiHKkfB2O7ZVhPI9xjDzS)
  
 到網頁後就是平常的用Telegram來傳送，但Attacker有增加ipinfo
