@@ -1,6 +1,6 @@
 ---
 title: 我如何用Git Submodules 來配合 @nuxt/content
-description: 
+description: 這個系統主要是用 Nuxt Content (aka 我懶的寫一個CMS) 與 Git submodules (之後可能會換成 S3??) 配合
 date: 2025-01-29
 ldate: 2025-01-29
 ---
